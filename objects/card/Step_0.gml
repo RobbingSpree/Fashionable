@@ -7,12 +7,26 @@ if holding == true
 	image_angle = 0;
 }
 
+//dramatically flip the card
+if delay > 0
+	delay -=1;
+if delay <= 0 && flip == false
+{
+	flip = true;
+}
+
+if flip == true && image_xscale > -1
+{
+	image_xscale -= 0.1
+}
+
+
 cycle -=1;
 if cycle < 1 && holding != true
 {
 	cycle = cmax;
 	//update pos on screen
-	//find where the left most card should sit
+	//find the how far the left edge card will sit reletive to the middle
 	var left_edge = (deck.hand_size-1)*30; 
 	//find point n card widths accross the screen
 	var hand_x = mid_x - left_edge + (index * 64);

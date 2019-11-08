@@ -3,13 +3,20 @@
 if ani !=0 
 	ani -=1;
 
-if turn == t.setup
+if turn == t.setup && ani == 0
 {
 	//setup the game 
-	for (i=0;i<5;i++)
+	if deck.hand_size <5
+	{
 		draw_card(t.player);
-	turn = t.player;
-	phase = p.setup;
+		draw_card(t.opponent);
+	}
+	else 
+	{
+		turn = t.player;
+		phase = p.setup;
+	}
+	ani = 10;
 }
 
 if change_turn && ani == 0
@@ -21,15 +28,17 @@ if change_turn && ani == 0
 	change_turn=false;
 }
 
+//check if at end of turn and start next turn
 if change_phase && ani <= 0
 {
-	if phase == p.tidy
+	if phase >= p.tidy
 	{
 		change_turn=true;
 	} else phase += 1;
 	change_phase=false;
 }
 
+#region //-- Player's turn
 if turn == t.player && change_phase == false
 {
 	//run the player turn
@@ -81,6 +90,9 @@ if turn == t.player && change_phase == false
 		}
 	}
 }
+#endregion
+
+#region //--Opponent's turn
 if turn == t.opponent
 {
 	//run the opponent turn
@@ -136,3 +148,4 @@ if turn == t.opponent
 		}
 	}
 }
+#endregion

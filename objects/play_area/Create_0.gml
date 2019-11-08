@@ -1,4 +1,5 @@
-p = ds_stack_create();
+//create the outfit data structure
+o = ds_stack_create();
 show_extra = 0;
 
 on = [];

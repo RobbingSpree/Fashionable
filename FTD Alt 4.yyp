@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0ed64815-705d-4fe2-9caa-f55dbd66acfc",
+            "Value": {
+                "id": "30f9602d-96b2-4f35-a90d-3eefb5e79e88",
+                "resourcePath": "sprites\\opponent_play_area_spr\\opponent_play_area_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14b64e73-991c-49a2-bb2d-a15fb86d1bf1",
             "Value": {
                 "id": "7fed5b6e-50de-4596-b4e7-2cb80080e28d",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "38476b1f-75af-4420-9d3e-4138e0bfde08",
+            "Value": {
+                "id": "aca5ab63-d2eb-420c-98a5-911d039b88df",
+                "resourcePath": "objects\\combat_toggle\\combat_toggle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4351573c-a248-4ff4-92ef-0089ef1e04f9",
             "Value": {
                 "id": "3836bf3c-c32e-4ae4-b3ef-fc156122382d",
@@ -127,11 +143,27 @@
             }
         },
         {
+            "Key": "51fdb12b-21fe-4d9f-b44e-929d7aefe73a",
+            "Value": {
+                "id": "544c0c2f-5020-4f07-8d05-dc56c1b53b44",
+                "resourcePath": "sprites\\combat_spr\\combat_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "57df9b57-f53e-40c5-b65c-6c9966de2ee6",
             "Value": {
                 "id": "d41ce555-dab7-4f15-b632-b23324fed6a7",
                 "resourcePath": "objects\\demo\\demo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "59f51763-f196-4713-a153-aa48ef533333",
+            "Value": {
+                "id": "fe6a541a-82d0-41c3-b7d3-9ccb7ca54bea",
+                "resourcePath": "sprites\\combat_words_spr\\combat_words_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -367,11 +399,27 @@
             }
         },
         {
+            "Key": "db0e7cdb-bc2f-4b7b-a1cc-b594c321dbca",
+            "Value": {
+                "id": "f8bd3b9c-2c14-4eeb-93b9-c9485ac03203",
+                "resourcePath": "sprites\\card_power_spr\\card_power_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "f7e58c8d-d6ac-4856-bc2c-98df53d5d837",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "f0a0a684-c8ad-42ec-9d1b-8f0cb097e930",
+            "Value": {
+                "id": "0738b05b-83a0-49c2-bee7-f17a2403c040",
+                "resourcePath": "objects\\opponent\\opponent.yy",
+                "resourceType": "GMObject"
             }
         },
         {

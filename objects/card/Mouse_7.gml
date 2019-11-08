@@ -27,7 +27,7 @@ if collision_point(x,y,play_area,false,true) && play_area.on[0,value mod 4] == f
 	}
 	play_area.on[0,value mod 4] = true;
 	deck.hand_size -=1;
-	ds_stack_push(play_area.p,value);
+	ds_stack_push(play_area.o,value);
 	instance_destroy(self);
 }
 

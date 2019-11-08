@@ -2,10 +2,10 @@ draw_self();
 
 draw_sprite(paper_doll,0,x,y);
 
-if ds_stack_top(p) >0
+if ds_stack_top(o) >0
 {
 	var draw_stack = ds_stack_create();
-	ds_stack_copy(draw_stack,p);
+	ds_stack_copy(draw_stack,o);
 	var height_ = ds_stack_size(draw_stack);
 	var ang = 0;
 	var scale = 1;
