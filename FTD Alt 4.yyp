@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "196622fa-25b3-4e2d-b711-9e7b46b9a570",
+            "Value": {
+                "id": "e0efbcc9-76cf-4398-a58c-f326a2c84e28",
+                "resourcePath": "sprites\\endturn_spr\\endturn_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d75b135-d25f-4c2d-89fd-f669c7785cd5",
             "Value": {
                 "id": "baea19a8-da27-44a8-934f-a8e84846a38d",
@@ -100,6 +108,14 @@
                 "id": "1a285082-6283-4600-a73e-a58b9d7696e9",
                 "resourcePath": "views\\4892ca35-c9d5-467c-99d4-422bf0857f68.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4bd96a0e-0128-4b51-89cd-f2bf1b25e378",
+            "Value": {
+                "id": "671d21b1-27a2-4f95-aea4-532640321c91",
+                "resourcePath": "scripts\\draw_card\\draw_card.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -287,6 +303,22 @@
             }
         },
         {
+            "Key": "be358dcc-149d-44ea-baca-f0a571245617",
+            "Value": {
+                "id": "09ed2fd7-ad1c-4184-b2c1-f20d7633f05c",
+                "resourcePath": "scripts\\next_phase\\next_phase.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c2247336-f84e-4682-b96e-e10e0a293392",
+            "Value": {
+                "id": "657e921d-cc78-4e68-aa8b-7f310a0093d4",
+                "resourcePath": "objects\\state_controller\\state_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c79f0191-2deb-4f16-aae9-1a4f61cdcdc4",
             "Value": {
                 "id": "d90cf33f-8050-4943-8256-252f18a580bb",
@@ -300,6 +332,14 @@
                 "id": "e37e7187-4c3f-4804-863c-4d290df26b92",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cde20af9-b2ab-4227-9f7a-974d69d8dc00",
+            "Value": {
+                "id": "95911b1e-7db4-4ec7-90cc-012efb98e1e9",
+                "resourcePath": "sprites\\reveal_spr\\reveal_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -360,7 +400,9 @@
         }
     ],
     "script_order": [
-        "88cf9d06-3479-4e92-a9be-bb243425ba1b"
+        "88cf9d06-3479-4e92-a9be-bb243425ba1b",
+        "4bd96a0e-0128-4b51-89cd-f2bf1b25e378",
+        "be358dcc-149d-44ea-baca-f0a571245617"
     ],
     "tutorial": ""
 }
