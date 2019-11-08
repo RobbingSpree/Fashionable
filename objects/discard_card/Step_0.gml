@@ -8,3 +8,7 @@ if floor(x) == floor(discard.x) && floor(y) == floor(discard.y)
 	ds_stack_push(discard.pile,value); 
 	instance_destroy(self);
 }
+
+ttl-=1;
+if ttl <=0
+	instance_destroy(self);
