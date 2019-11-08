@@ -3,9 +3,9 @@
 if ani !=0 
 	ani -=1;
 
+//setup the game
 if turn == t.setup && ani == 0
-{
-	//setup the game 
+{ 
 	if deck.hand_size <5
 	{
 		draw_card(t.player);
@@ -19,6 +19,7 @@ if turn == t.setup && ani == 0
 	ani = 10;
 }
 
+//swap to next turn
 if change_turn && ani == 0
 {
 	if turn == t.player
@@ -33,7 +34,12 @@ if change_phase && ani <= 0
 {
 	if phase >= p.tidy
 	{
-		change_turn=true;
+		if turn == t.player
+			turn = t.opponent;
+		else 
+			turn = t.player;
+		phase = p.setup;
+		change_turn=false;
 	} else phase += 1;
 	change_phase=false;
 }
@@ -46,6 +52,8 @@ if turn == t.player && change_phase == false
 	//setup
 	if phase==p.setup
 	{
+		var ann = instance_create_layer(x,play_area.y,"UI",announce);
+		ann.str = "Your turn";
 		//end phase
 		if change_phase==false
 		{
@@ -93,13 +101,15 @@ if turn == t.player && change_phase == false
 #endregion
 
 #region //--Opponent's turn
-if turn == t.opponent
+if turn == t.opponent && ani == 0
 {
 	//run the opponent turn
 	
 	//setup
 	if phase==p.setup
 	{
+		var ann = instance_create_layer(x,opponent.y,"UI",announce);
+		ann.str = "Opponent's turn";
 		//end phase
 		if change_phase==false
 		{
@@ -110,6 +120,7 @@ if turn == t.opponent
 	//draw
 	if phase==p.draw
 	{
+		draw_card(t.opponent);
 		//end phase
 		if change_phase==false
 		{

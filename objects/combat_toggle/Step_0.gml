@@ -9,5 +9,8 @@ if state_controller.turn == t.player
 
 if hide == false && alpha < 1 && ds_stack_size(play_area.o) > 0
 	alpha += 0.05;
-else if alpha > 0
-	alpha -= 0.1;
+
+if state_controller.turn != t.player || state_controller.phase == p.tidy
+	if alpha > 0
+		alpha -=0.1;
+	

@@ -19,6 +19,20 @@ if ds_stack_top(o) >0
 		ds_stack_pop(draw_stack);
 	}
 	ds_stack_destroy(draw_stack);
+	
+	var total_power = 0;
+	total_power += on[1,0];
+	total_power += on[1,1];
+	total_power += on[1,2];
+	total_power += on[1,3];
+	
+	draw_set_font(ann_fnt);
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_text_ext(x-sprite_width,y,"Outfit Power: "+string(total_power),40,64);
+	draw_set_valign(fa_top);
+	draw_set_halign(fa_left);
+	draw_set_font(defont);
 }
 //debug
 /*
