@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2a43d063-09af-4cad-8a97-55773918183b",
+            "Value": {
+                "id": "1a0b5a54-9d47-4db1-8650-d196f05fc1aa",
+                "resourcePath": "sprites\\disrobe_spr\\disrobe_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d75b135-d25f-4c2d-89fd-f669c7785cd5",
             "Value": {
                 "id": "baea19a8-da27-44a8-934f-a8e84846a38d",
@@ -164,6 +172,14 @@
                 "id": "0d7984b4-ffcf-4931-a4a7-feeee0471674",
                 "resourcePath": "sprites\\deck_spr\\deck_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4fba5f6b-d12a-4f86-8f6a-3f4d7a5f1f42",
+            "Value": {
+                "id": "4afa2d4c-7f75-4498-b82b-0a7eb42d7e4a",
+                "resourcePath": "objects\\disrobe_button\\disrobe_button.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -260,6 +276,14 @@
                 "id": "4a4501f5-074a-40eb-b482-c0ea501f213d",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "857aba51-c840-4e9a-a112-f48c16b2cc7a",
+            "Value": {
+                "id": "06277cf4-287e-40e5-9e18-b27ce149260d",
+                "resourcePath": "sprites\\disrobe_button_spr\\disrobe_button_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
