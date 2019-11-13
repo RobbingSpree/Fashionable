@@ -14,3 +14,5 @@ if state_controller.turn != t.player || state_controller.phase >= p.combat
 	if alpha > 0
 		alpha -=0.1;
 	
+if state_controller.turn == t.opponent
+	used = false;

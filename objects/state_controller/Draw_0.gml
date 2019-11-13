@@ -1,5 +1,5 @@
 /// @description Debug values
-
+/*
 draw_text(20,20,"Current Turn: "+string(turn));
 draw_text(20,40,"Current Phase: "+string(phase));
 draw_text(20,60,"Change Turn? "+string(change_turn));
