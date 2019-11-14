@@ -80,6 +80,10 @@ if turn == t.player && change_phase == false
 	//combat
 	if phase==p.combat
 	{
+		if play_area.total_power > opponent.total_power
+			opponent.h +=1;
+		else
+			hits.h+=1;
 		//end phase
 		if change_phase==false
 		{

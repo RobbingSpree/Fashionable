@@ -1,5 +1,5 @@
-/// @description remove card from outfit
-
+/// @description debug remove card from outfit 
+/*
 if ds_stack_top(o)>0 && state_controller.phase == p.play && state_controller.turn == t.player
 {
 	var temp = ds_stack_top(o);

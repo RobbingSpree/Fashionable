@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1d2ebea2-f541-43e7-9665-2cecb716cd42",
+            "Value": {
+                "id": "a801b0f8-3995-4af1-a75a-3d316cdc57a2",
+                "resourcePath": "objects\\hits\\hits.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "288a0453-8583-4e48-b057-1c94a7bf2353",
             "Value": {
                 "id": "b48f82ed-bd68-47e9-be23-4907669f5270",
@@ -212,6 +220,14 @@
                 "id": "544c0c2f-5020-4f07-8d05-dc56c1b53b44",
                 "resourcePath": "sprites\\combat_spr\\combat_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "534980f7-c221-499a-923d-f08013734003",
+            "Value": {
+                "id": "b39e85c8-051a-436a-91a0-0dd20241797c",
+                "resourcePath": "views\\534980f7-c221-499a-923d-f08013734003.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -415,6 +431,14 @@
             }
         },
         {
+            "Key": "b0da31b3-0cd6-4deb-bc63-002b938d64b4",
+            "Value": {
+                "id": "f073499b-eeee-4a64-9f76-22d0225ff44c",
+                "resourcePath": "views\\b0da31b3-0cd6-4deb-bc63-002b938d64b4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b4d92a4b-e9fd-45c8-ad74-cad741de0272",
             "Value": {
                 "id": "93a55dbf-c1ee-4065-bcb5-0f59b80165c4",
@@ -548,6 +572,14 @@
                 "id": "f7e58c8d-d6ac-4856-bc2c-98df53d5d837",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "edcc4648-f18a-4800-bd5b-6aa6ac114dcf",
+            "Value": {
+                "id": "5f9d34f5-9676-48ca-bdb1-6f557b7746c3",
+                "resourcePath": "views\\edcc4648-f18a-4800-bd5b-6aa6ac114dcf.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

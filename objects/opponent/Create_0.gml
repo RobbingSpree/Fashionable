@@ -18,6 +18,8 @@ hand_size =0;
 //create the oponent outfit data structure
 o = ds_stack_create();
 show_extra = 0;
+total_power=0;
+h=0;
 
 on = [];
 on[0,0] = false;
