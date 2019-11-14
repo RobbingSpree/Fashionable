@@ -1,6 +1,6 @@
 /// @description detect click
 
-if state_controller.turn == t.player && state_controller.phase == p.play && alpha > 0.8 
+if state_controller.turn == t.player && state_controller.phase == p.play && alpha > 0.8 && used == false
 {
 	//show the disrobe menu
 	menu = false;
@@ -12,5 +12,6 @@ if state_controller.turn == t.player && state_controller.phase == p.play && alph
 		case 2: repeat(2) disrobe_garment(t.player); break;
 		case 3: repeat(3) disrobe_garment(t.player); break;
 	}
-	used = true;
+	if point_distance(dx,dy,mouse_x,mouse_y) > 35
+		used = true;
 }
