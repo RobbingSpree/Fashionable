@@ -81,7 +81,7 @@ if turn == t.player && change_phase == false
 	if phase==p.combat
 	{
 		if play_area.total_power > opponent.total_power
-			opponent.h +=1;
+			opponent.hit +=1;
 		else
 			hits.h+=1;
 		//end phase
@@ -135,6 +135,7 @@ if turn == t.opponent && ani == 0
 	//main
 	if phase==p.play
 	{
+		//run script to update enemy outfit
 		//end phase
 		if change_phase==false
 		{

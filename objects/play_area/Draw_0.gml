@@ -20,7 +20,7 @@ if ds_stack_top(o) >0
 	}
 	ds_stack_destroy(draw_stack);
 	
-	var total_power = 0;
+	total_power = 0;
 	total_power += on[1,0];
 	total_power += on[1,1];
 	total_power += on[1,2];
