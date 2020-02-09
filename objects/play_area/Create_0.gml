@@ -1,6 +1,7 @@
 //create the outfit data structure
 o = ds_stack_create();
 show_extra = 0;
+rainbow = 0;
 
 //logic for if item is already on paper doll
 on = [];

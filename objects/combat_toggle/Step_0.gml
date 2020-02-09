@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+cooldown--;
 if state_controller.turn == t.player
 	if state_controller.phase >= p.play
 	{
@@ -14,3 +14,6 @@ if state_controller.turn != t.player || state_controller.phase == p.tidy
 	if alpha > 0
 		alpha -=0.1;
 	
+if cooldown < 0 
+	cooldown = 0;
+

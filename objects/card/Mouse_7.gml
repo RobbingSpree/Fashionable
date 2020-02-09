@@ -37,4 +37,5 @@ if holding == true
 	holding = false;
 	global.holding = noone;
 	global.h_index = noone;
+	combat_toggle.cooldown = combat_toggle.cool_max;
 }
