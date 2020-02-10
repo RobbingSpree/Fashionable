@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description draw opponent and their cards
 
 draw_self();
 draw_sprite_ext(paper_doll,0,x,y,scale,scale,0,c_white,1);

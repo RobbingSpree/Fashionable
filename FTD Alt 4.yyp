@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "f1f92133-e8a0-48ca-aebb-6f105c4a1bf3",
+            "Value": {
+                "id": "0dea3491-8eb1-4d95-97fa-4b1f1818eaaa",
+                "resourcePath": "objects\\auto_card\\auto_card.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "b98a5260-814f-4262-9bf9-3500824729a2",

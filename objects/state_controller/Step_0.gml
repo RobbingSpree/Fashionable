@@ -136,6 +136,11 @@ if turn == t.opponent && ani == 0
 	if phase==p.play
 	{
 		//run script to update enemy outfit
+		with(opponent)
+		{
+			if instance_count(auto_card) == 0
+				opponent_redress();
+		}
 		//end phase
 		if change_phase==false
 		{

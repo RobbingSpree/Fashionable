@@ -15,6 +15,9 @@ pile = ds_stack_create();
 h = ds_list_create();
 hand_size =0;
 
+//setup action temp holding
+action_queue = ds_list_create();
+
 //create the oponent outfit data structure
 o = ds_stack_create();
 show_extra = 0;
