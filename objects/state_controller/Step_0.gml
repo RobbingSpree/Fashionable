@@ -138,15 +138,17 @@ if turn == t.opponent && ani == 0
 		//run script to update enemy outfit
 		with(opponent)
 		{
-			if instance_count(auto_card) == 0
+			if instance_number(auto_card) == 0 
 				opponent_redress();
 		}
 		//end phase
+		/*
 		if change_phase==false
 		{
 			change_phase=true
 			ani=ani_max;
 		}
+		*/
 	}
 	//combat
 	if phase==p.combat

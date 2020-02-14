@@ -16,7 +16,7 @@ h = ds_list_create();
 hand_size =0;
 
 //setup action temp holding
-action_queue = ds_list_create();
+action_queue = ds_stack_create();
 
 //create the oponent outfit data structure
 o = ds_stack_create();
