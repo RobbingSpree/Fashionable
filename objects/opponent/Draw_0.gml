@@ -1,7 +1,20 @@
 /// @description draw opponent and their cards
 
 draw_self();
-draw_sprite_ext(paper_doll,0,x,y,scale,scale,0,c_white,1);
+var cunk = 6
+if instance_number(auto_card)!=0
+	for (var i=10; i<124; i+=cunk)
+	{
+		//sprite is only visible from y10 to y124
+		//takes about 28 loops
+		if i+rainbow < 255
+			var col = make_color_hsv(rainbow+i,200,255);
+		else 
+			var col = make_color_hsv(rainbow+i-255,200,255);
+		draw_sprite_part_ext(paper_doll,0,0,i,64,cunk,x-32,y+i-64,scale,scale,col,1);
+	}
+else 
+	draw_sprite_ext(paper_doll,0,x,y,scale,scale,0,c_white,1);
 //draw outfit
 if ds_stack_top(o) >0
 {
@@ -20,6 +33,18 @@ if ds_stack_top(o) >0
 	}
 	ds_stack_destroy(draw_stack);
 }
+//draw opponent power
+if state_controller.turn=t.opponent && state_controller.phase=p.play
+{
+	draw_set_font(descrip);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_middle);
+	draw_text_ext(x+100,y-20,"Opponent Outfit Power: "+string(total_power),40,64);
+	draw_set_valign(fa_top);
+	draw_set_halign(fa_left);
+	draw_set_font(defont);
+}
+
 //draw_hand
 if hand_size > 0
 {
@@ -27,7 +52,7 @@ if hand_size > 0
 	for(var k=0;k<hand_size;k++)
 	{
 		//set x pos
-		var hx=mid_x - (hand_size-1)*30*card_scale + k*card_wid;
+		var hx=mid_x - (hand_size-1)*30*card_scale + k*card_wid*(card_scale*2);
 		//angle for arc offset
 		var ang = 0; //avoiding division by 0
 			if k != 0
