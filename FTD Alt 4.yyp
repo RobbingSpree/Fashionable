@@ -71,6 +71,22 @@
             }
         },
         {
+            "Key": "111e61b1-a3fb-4fc3-a7e7-6446f565d3b6",
+            "Value": {
+                "id": "1839ea23-8842-44a6-95c9-f0430bae2eb9",
+                "resourcePath": "shaders\\shader1\\shader1.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "12f5943f-e59e-4d3d-b132-29366e6f0b78",
+            "Value": {
+                "id": "03d00136-6e44-46c0-8a32-f19dfe2a254f",
+                "resourcePath": "sprites\\rainbow_grl\\rainbow_grl.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14b64e73-991c-49a2-bb2d-a15fb86d1bf1",
             "Value": {
                 "id": "7fed5b6e-50de-4596-b4e7-2cb80080e28d",
@@ -183,6 +199,14 @@
             }
         },
         {
+            "Key": "4b05a37b-7783-451f-aab7-255ed054f183",
+            "Value": {
+                "id": "4e34a110-5bd4-48f6-b1c6-d12f23cb8949",
+                "resourcePath": "shaders\\rbw_shd\\rbw_shd.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "4bd96a0e-0128-4b51-89cd-f2bf1b25e378",
             "Value": {
                 "id": "671d21b1-27a2-4f95-aea4-532640321c91",
@@ -255,11 +279,27 @@
             }
         },
         {
+            "Key": "5c9cde65-ca28-4943-a64d-3530119a7722",
+            "Value": {
+                "id": "f5975979-3a99-4f29-bcb4-7fb2ce5169a5",
+                "resourcePath": "views\\5c9cde65-ca28-4943-a64d-3530119a7722.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5d7af37d-7aa2-4317-8141-0bbb681d2d13",
             "Value": {
                 "id": "f9b4cb1f-9376-44cd-9710-d8fad70efe27",
                 "resourcePath": "sprites\\discard_spr\\discard_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "69017836-894b-4ba4-812a-50850c8a6430",
+            "Value": {
+                "id": "ea003d02-8825-49f9-9c56-10755e22a723",
+                "resourcePath": "rooms\\debug\\debug.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -367,6 +407,22 @@
             }
         },
         {
+            "Key": "9e23d433-c7c8-441d-bd79-c1c00794ce58",
+            "Value": {
+                "id": "7ed67ff7-ef52-4ad9-8e2e-d8d6be94abb4",
+                "resourcePath": "sprites\\white_grl\\white_grl.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9fe08742-1621-4771-9791-1c61a66bfe6b",
+            "Value": {
+                "id": "e5b309b6-2d30-4a76-a6ab-99f1edb71dd9",
+                "resourcePath": "objects\\debug_obj\\debug_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "c9cbe9d5-ce29-4941-85fe-ec6cdf1e9811",
@@ -436,6 +492,14 @@
                 "id": "f073499b-eeee-4a64-9f76-22d0225ff44c",
                 "resourcePath": "views\\b0da31b3-0cd6-4deb-bc63-002b938d64b4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b267eb64-ccf2-4bfd-9504-7a46672f639f",
+            "Value": {
+                "id": "5a28bbe8-5761-410b-8ef1-70857e728edc",
+                "resourcePath": "objects\\debug2\\debug2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -628,6 +692,14 @@
                 "id": "3892b173-75c3-4987-87b9-6ab8efbf0645",
                 "resourcePath": "sprites\\circle_choice_3_spr\\circle_choice_3_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f6fe1719-dca8-47ce-92ce-bb7eafe6cf8c",
+            "Value": {
+                "id": "36e471b1-b11d-4d86-ad6a-b282b0162bf0",
+                "resourcePath": "objects\\debug3\\debug3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
