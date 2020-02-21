@@ -7,7 +7,6 @@ if ds_stack_size(action_queue) > 0 && instance_number(auto_card)==0
 	auto_.value = ds_list_find_value(h,val); //pass the value of the card
 	ds_list_delete(h,val); //remove from hand
 	hand_size--; //update handsize 
-	//ds_list_delete(action_queue,0); //remove from action queue	
 }
 
 if state_controller.turn=t.opponent && state_controller.phase=p.play && ds_stack_size(action_queue) == 0

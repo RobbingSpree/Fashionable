@@ -1,7 +1,16 @@
 /// @description draw opponent and their cards
 
 draw_self();
+//shader magic
+if state_controller.turn=t.opponent && state_controller.phase=p.play
+{
+	shader_set(rbw_shd);
+	shader_set_uniform_f(Res,255,255,0); 
+	shader_set_uniform_f(Time,current_time/1000); 
+}
 draw_sprite_ext(paper_doll,0,x,y,scale,scale,0,c_white,1);
+shader_reset(); 
+
 //draw outfit
 if ds_stack_top(o) >0
 {

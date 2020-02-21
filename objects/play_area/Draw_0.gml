@@ -1,7 +1,15 @@
 draw_self();
 
-var cunk = 6
+//var cunk = 6
 if global.holding != noone
+{
+	shader_set(rbw_shd);
+	shader_set_uniform_f(Res,255,255,0); 
+	shader_set_uniform_f(Time,current_time/1000); 
+}
+draw_sprite(paper_doll,0,x,y);
+shader_reset(); 
+/*
 	for (var i=10; i<124; i+=cunk)
 	{
 		//sprite is only visible from y10 to y124
@@ -14,7 +22,7 @@ if global.holding != noone
 	}
 else 
 	draw_sprite(paper_doll,0,x,y);
-
+*/
 
 
 if ds_stack_top(o) >0

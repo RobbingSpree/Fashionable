@@ -16,3 +16,7 @@ on[1,2] = 0;
 on[1,3] = 0;
 
 total_power = 0;
+
+//shader variables
+Res = shader_get_uniform(rbw_shd,"iResolution"); 
+Time = shader_get_uniform(rbw_shd,"iGlobalTime"); 

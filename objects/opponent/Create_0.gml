@@ -47,3 +47,7 @@ x=room_width/2;
 image_alpha=0.25;
 mid_x = room_width/2;
 mid_y = y-(sprite_height*scale);
+
+//shader variables
+Res = shader_get_uniform(rbw_shd,"iResolution"); 
+Time = shader_get_uniform(rbw_shd,"iGlobalTime"); 

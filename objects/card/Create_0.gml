@@ -16,3 +16,7 @@ pow = irandom_range(1,5);
 
 delay=100;
 flip=true;
+
+//shader variables
+Res = shader_get_uniform(rbw_shd,"iResolution"); 
+Time = shader_get_uniform(rbw_shd,"iGlobalTime"); 
