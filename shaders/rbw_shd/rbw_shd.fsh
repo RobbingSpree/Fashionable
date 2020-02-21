@@ -1,4 +1,4 @@
-//
+//https://www.shadertoy.com/view/ttyXR1
 // Rainbow effect shader
 //
 uniform float iGlobalTime; 
