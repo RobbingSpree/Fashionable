@@ -1,6 +1,7 @@
 /// @description Setup
 
 value = -1;
+pow = irandom_range(1,5);
 
 mode = "Outfit Add";
 phase = 0;
@@ -13,9 +14,13 @@ emergency_stop=30;
 
 //visuals
 scale = 0.5;
-mid_scale=1.2;
-final_scale=0.7;
+mid_scale=1.3;
+final_scale=1;
 image_xscale=scale;
 image_yscale=scale;
 
 delay=room_speed/2;
+
+//shader variables
+Res = shader_get_uniform(rbw_shd,"iResolution"); 
+Time = shader_get_uniform(rbw_shd,"iGlobalTime"); 

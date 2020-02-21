@@ -2,15 +2,14 @@
 
 draw_self();
 //shader magic
-if state_controller.turn=t.opponent && state_controller.phase=p.play
+if instance_number(auto_card)>0 //state_controller.turn=t.opponent && state_controller.phase=p.play
 {
 	shader_set(rbw_shd);
 	shader_set_uniform_f(Res,255,255,0); 
-	shader_set_uniform_f(Time,current_time/1000); 
+	shader_set_uniform_f(Time,current_time/1000);
 }
-draw_sprite_ext(paper_doll,0,x,y,scale,scale,0,c_white,1);
-shader_reset(); 
-
+draw_sprite_ext(paper_doll,0,x,y,scale,scale,1,c_white,1);
+shader_reset();
 //draw outfit
 if ds_stack_top(o) >0
 {
@@ -29,6 +28,18 @@ if ds_stack_top(o) >0
 	}
 	ds_stack_destroy(draw_stack);
 }
+//draw opponent power
+if state_controller.turn=t.opponent && state_controller.phase=p.play
+{
+	draw_set_font(descrip);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_middle);
+	draw_text_ext(x+100,y-20,"Opponent Outfit Power: "+string(total_power),40,64);
+	draw_set_valign(fa_top);
+	draw_set_halign(fa_left);
+	draw_set_font(defont);
+}
+
 //draw_hand
 if hand_size > 0
 {
@@ -36,7 +47,7 @@ if hand_size > 0
 	for(var k=0;k<hand_size;k++)
 	{
 		//set x pos
-		var hx=mid_x - (hand_size-1)*30*card_scale + k*card_wid;
+		var hx=mid_x - (hand_size-1)*30*card_scale + k*card_wid*(card_scale*2);
 		//angle for arc offset
 		var ang = 0; //avoiding division by 0
 			if k != 0
