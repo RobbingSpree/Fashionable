@@ -23,7 +23,7 @@ if ds_stack_top(o) >0
 	for (var i = 0; i<height_; i++)
 	{
 		var top = ds_stack_top(draw_stack);
-		draw_sprite_ext(clothes_generics,top mod 4,x,y,scale,scale,ang,c_white,1);	
+		draw_sprite_ext(clothes_generics,top mod 4,px,py,scale,scale,ang,c_white,1);	
 		if show_extra > 0
 		draw_sprite_ext(stack_spr2,top mod 4,x+200,ys+20*i,scale,scale,ang,c_white,1);	
 		ds_stack_pop(draw_stack);
