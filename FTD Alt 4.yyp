@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "5dd281ee-7d2e-432b-95b8-c239bf66e5af",
+            "Value": {
+                "id": "43ebd4af-4ba1-4738-bfa1-ade536ea660b",
+                "resourcePath": "sprites\\vs_spr\\vs_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "69017836-894b-4ba4-812a-50850c8a6430",
             "Value": {
                 "id": "ea003d02-8825-49f9-9c56-10755e22a723",
@@ -415,14 +423,6 @@
             }
         },
         {
-            "Key": "9fe08742-1621-4771-9791-1c61a66bfe6b",
-            "Value": {
-                "id": "e5b309b6-2d30-4a76-a6ab-99f1edb71dd9",
-                "resourcePath": "objects\\debug_obj\\debug_obj.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "c9cbe9d5-ce29-4941-85fe-ec6cdf1e9811",
@@ -492,14 +492,6 @@
                 "id": "f073499b-eeee-4a64-9f76-22d0225ff44c",
                 "resourcePath": "views\\b0da31b3-0cd6-4deb-bc63-002b938d64b4.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b267eb64-ccf2-4bfd-9504-7a46672f639f",
-            "Value": {
-                "id": "5a28bbe8-5761-410b-8ef1-70857e728edc",
-                "resourcePath": "objects\\debug2\\debug2.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -692,14 +684,6 @@
                 "id": "3892b173-75c3-4987-87b9-6ab8efbf0645",
                 "resourcePath": "sprites\\circle_choice_3_spr\\circle_choice_3_spr.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f6fe1719-dca8-47ce-92ce-bb7eafe6cf8c",
-            "Value": {
-                "id": "36e471b1-b11d-4d86-ad6a-b282b0162bf0",
-                "resourcePath": "objects\\debug3\\debug3.yy",
-                "resourceType": "GMObject"
             }
         },
         {

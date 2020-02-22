@@ -9,6 +9,12 @@ if ds_stack_size(action_queue) > 0 && instance_number(auto_card)==0
 	hand_size--; //update handsize 
 }
 
+if state_controller.phase==p.setup
+{
+	px=x;
+	py=y;
+}
+
 if state_controller.turn == t.opponent && state_controller.phase==p.play
 	phase_change--;
 if phase_change <=0
@@ -25,7 +31,7 @@ if instance_number(auto_card)!=0
 		rainbow = 0;
 }
 
-if state_controller.turn = t.opponent
+if state_controller.turn == t.opponent || state_controller.phase == p.combat
 {
 	if scale < 1
 		scale +=0.01;

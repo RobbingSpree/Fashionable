@@ -76,16 +76,24 @@ if turn == t.player && change_phase == false
 	if phase==p.play
 	{
 		//wait for trigger to go into combat
+		prep = true;
 	}
 	//combat
 	if phase==p.combat
 	{
-		if play_area.total_power > opponent.total_power
-			opponent.hit +=1;
-		else
-			hits.h+=1;
+		if prep != false //move actors to middle of screen
+		{
+			var chgne = 0.1;
+			play_area.px = lerp(play_area.px,576,chgne); //move to right side
+			play_area.py = lerp(play_area.py,320,chgne); //move to right side
+			opponent.px = lerp(opponent.px,224,chgne); //move to right side
+			opponent.py = lerp(opponent.py,320,chgne); //move to right side
+			opponent.scale = lerp(opponent.scale,1,chgne); //scale up opponent sprite
+			if abs(opponent.py - play_area.py) < 2
+				prep = false;
+		}
 		//end phase
-		if change_phase==false
+		if change_phase==true
 		{
 			change_phase=true
 			ani=ani_max;

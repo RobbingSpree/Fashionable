@@ -18,6 +18,7 @@ enum t
 }
 
 phase = 0;
+prep = false;
 turn = 0;
 change_phase=false;
 change_turn=false;

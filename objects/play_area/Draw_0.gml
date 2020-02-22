@@ -7,24 +7,10 @@ if global.holding != noone
 	shader_set_uniform_f(Res,255,255,0); 
 	shader_set_uniform_f(Time,current_time/1000); 
 }
-draw_sprite(paper_doll,0,x,y);
-shader_reset(); 
-/*
-	for (var i=10; i<124; i+=cunk)
-	{
-		//sprite is only visible from y10 to y124
-		//takes about 28 loops
-		if i+rainbow < 255
-			var col = make_color_hsv(rainbow+i,200,255);
-		else 
-			var col = make_color_hsv(rainbow+i-255,200,255);
-		draw_sprite_part_ext(paper_doll,0,0,i,64,cunk,x-32,y+i-64,1,1,col,1);
-	}
-else 
-	draw_sprite(paper_doll,0,x,y);
-*/
+draw_sprite(paper_doll,0,px,py);
+shader_reset();
 
-
+//draw outfit
 if ds_stack_top(o) >0
 {
 	var draw_stack = ds_stack_create();

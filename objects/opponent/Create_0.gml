@@ -41,6 +41,8 @@ on[1,3] = 0;
 phase_change = 80;
 
 //visual settings
+px=x;
+py=y;
 scale=0.7;
 card_scale = 0.5;
 card_wid = 64*card_scale;

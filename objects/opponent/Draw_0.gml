@@ -1,6 +1,7 @@
 /// @description draw opponent and their cards
 
 draw_self();
+
 //shader magic
 if instance_number(auto_card)>0 //state_controller.turn=t.opponent && state_controller.phase=p.play
 {
@@ -8,8 +9,9 @@ if instance_number(auto_card)>0 //state_controller.turn=t.opponent && state_cont
 	shader_set_uniform_f(Res,255,255,0); 
 	shader_set_uniform_f(Time,current_time/1000);
 }
-draw_sprite_ext(paper_doll,0,x,y,scale,scale,1,c_white,1);
+draw_sprite_ext(paper_doll,0,px,py,scale,scale,1,c_white,1);
 shader_reset();
+
 //draw outfit
 if ds_stack_top(o) >0
 {
@@ -28,6 +30,7 @@ if ds_stack_top(o) >0
 	}
 	ds_stack_destroy(draw_stack);
 }
+
 //draw opponent power
 if state_controller.turn=t.opponent && state_controller.phase=p.play
 {
@@ -61,10 +64,12 @@ if hand_size > 0
 		draw_sprite_ext(clothes_generics,_value,hx,hy,card_scale,card_scale,card_ang,c_white,1);
 	}
 }
+
 //draw deck
 draw_sprite_ext(deck_spr,0,x-sprite_width*2*scale,y-sprite_height*scale,card_scale,card_scale,0,c_white,1);
 var top_card = ds_stack_top(d);
 draw_sprite_ext(clothes_generics,top_card,x-sprite_width*2*scale,y-sprite_height*scale,card_scale,card_scale,0,c_white,1);
+
 //draw discard pile
 draw_sprite_ext(discard_spr,0,x+sprite_width*2*scale,y-sprite_height*scale,card_scale,card_scale,0,c_white,1);
 if ds_stack_size(pile) > 0
