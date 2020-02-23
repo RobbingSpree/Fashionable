@@ -7,8 +7,10 @@ if state_controller.turn == t.player && state_controller.phase >= p.play && alph
 		next_turn();
 	} else {
 		if state_controller.phase < p.combat
+		{
 			next_phase();
-		else 
+			state_controller.ani = 0;
+		} else 
 			next_turn();
 	}
 }

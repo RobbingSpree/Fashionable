@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "7d348f1f-f2c5-4702-85e3-80df3a22007c",
+            "Value": {
+                "id": "4b91614e-c9e6-4e3f-aa9f-88ba25cf0f75",
+                "resourcePath": "sprites\\combat_hit_sign_spr\\combat_hit_sign_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80116c95-0a37-4f09-a9a9-7610c86d20bc",
             "Value": {
                 "id": "907a6856-3463-4b0d-922e-47860fc8fb34",

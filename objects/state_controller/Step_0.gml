@@ -94,12 +94,46 @@ if turn == t.player && change_phase == false
 			ani=ani_max;
 		}
 		
-		if prep == true + 1
+		if prep == true + 1 //show the combat UI
 		{
 			hits.show_vs = true;
 			if ani <=0
-				change_phase=true;
+			{
+				ani=ani_max;
+				prep +=1;
+				if play_area.total_power > opponent.total_power
+					hits.h+=1;
+				if play_area.total_power < opponent.total_power
+					opponent.hit +=1;
+			}
 		}
+		
+		if prep == true + 2 //calculate damage
+		{
+			if play_area.total_power > opponent.total_power
+				hits.combat_win="player";
+			if play_area.total_power < opponent.total_power
+				hits.combat_win="opponent";
+			if play_area.total_power == opponent.total_power
+				hits.combat_win="draw";
+			
+			if ani <=0
+				prep += 1;
+		}
+		
+		if prep == true + 3 //reset actors
+		{
+			play_area.px = lerp(play_area.px,play_area.x,0.1);
+			play_area.py = lerp(play_area.py,play_area.y,0.1);
+			opponent.px = lerp(opponent.px,opponent.x,0.1);
+			opponent.py = lerp(opponent.py,opponent.y,0.1);
+			hits.show_vs = false;
+			if abs(play_area.px-play_area.x) < 2
+			{
+				change_phase = true;
+			}
+		}
+		
 		//end phase
 		if change_phase==true
 		{
@@ -107,6 +141,8 @@ if turn == t.player && change_phase == false
 			play_area.py=play_area.y;
 			opponent.px=opponent.x;
 			opponent.py=opponent.y;
+			hits.combat_win="no";
+			hits.show_vs = false;
 			change_phase=true
 			ani=ani_max;
 		}
@@ -174,7 +210,7 @@ if turn == t.opponent && ani == 0
 	if phase==p.combat
 	{
 		//end phase
-		if change_phase==false
+		if change_phase==true
 		{
 			change_phase=true
 			ani=ani_max;
