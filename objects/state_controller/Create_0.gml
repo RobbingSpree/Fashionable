@@ -14,7 +14,8 @@ enum t
 {
 	setup,
 	player,
-	opponent
+	opponent,
+	victory
 }
 
 phase = 0;

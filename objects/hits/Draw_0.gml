@@ -2,8 +2,10 @@
 
 draw_set_font(descrip);
 draw_set_halign(fa_center);
-draw_text(x,y,"Remaining Hits: "+string(3-h));
+draw_text(x,y,"Remaining Hits to win: "+string(3-h));
+draw_text(x,y-20,"Remaining Hits to lose: "+string(3-opponent.hit));
 
+#region //--combat UI
 if show_vs 
 {
 	draw_sprite(vs_spr,0,room_width/2,320);
@@ -11,7 +13,7 @@ if show_vs
 	draw_text(576,400,play_area.total_power);
 }
 
-if combat_win != "no"
+if combat_win != "no" && state_controller.turn != t.victory
 {
 	var ppx = play_area.px;
 	var ppy = play_area.py;
@@ -39,6 +41,7 @@ if combat_win != "no"
 		draw_text(576,420,"EVEN"); //player text
 	}
 }
+#endregion
 
 draw_set_font(defont);
 draw_set_halign(fa_left);
