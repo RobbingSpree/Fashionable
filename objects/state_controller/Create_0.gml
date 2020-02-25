@@ -18,6 +18,19 @@ enum t
 	victory
 }
 
+enum e
+{
+	none,
+	draw,
+	draw_other,
+	discard,
+	discard_other,
+	rem_bottom,
+	rem_bottom_other,
+	swap_top_other,
+	rem_top_other
+}
+
 phase = 0;
 prep = false;
 turn = 0;

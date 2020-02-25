@@ -10,7 +10,10 @@
         "80116c95-0a37-4f09-a9a9-7610c86d20bc",
         "3604f25b-5739-429a-87cb-e4624b4d8edc",
         "0cd6c0ca-1efd-4bca-ad67-0a00afe8349b",
-        "14b64e73-991c-49a2-bb2d-a15fb86d1bf1"
+        "14b64e73-991c-49a2-bb2d-a15fb86d1bf1",
+        "9c80a75d-0352-4d9e-9800-32ea30880f13",
+        "21509b1a-e067-4cfa-9492-aca4a7bb9f99",
+        "b5769803-8824-409f-bf6b-1461c4b7b403"
     ],
     "filterType": "GMSprite",
     "folderName": "card sprites",

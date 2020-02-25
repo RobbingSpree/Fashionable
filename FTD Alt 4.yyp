@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "013e38cd-a947-45b0-84a8-422ded03f60a",
+            "Value": {
+                "id": "4605521e-afd7-499c-b7e8-389645138239",
+                "resourcePath": "scripts\\disrobe_bottom_garment\\disrobe_bottom_garment.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "071608bd-5e51-4b22-b517-9d88166bccb9",
             "Value": {
                 "id": "58ab4ab8-28aa-4eb2-9c30-0a6b12449374",
@@ -116,6 +124,14 @@
                 "id": "a801b0f8-3995-4af1-a75a-3d316cdc57a2",
                 "resourcePath": "objects\\hits\\hits.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "21509b1a-e067-4cfa-9492-aca4a7bb9f99",
+            "Value": {
+                "id": "3c320ade-4562-4f0f-8299-1306f55e1603",
+                "resourcePath": "sprites\\effects_spr1\\effects_spr1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -423,6 +439,14 @@
             }
         },
         {
+            "Key": "9c80a75d-0352-4d9e-9800-32ea30880f13",
+            "Value": {
+                "id": "df38ffad-cf83-40b7-b220-9cdde80911fc",
+                "resourcePath": "sprites\\effects_spr\\effects_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9d8ee402-72a8-445b-865c-77e81a5f0d0e",
             "Value": {
                 "id": "f0250c31-4244-4caa-86ac-c02114f0924f",
@@ -519,6 +543,14 @@
             }
         },
         {
+            "Key": "b5769803-8824-409f-bf6b-1461c4b7b403",
+            "Value": {
+                "id": "c93f98d6-4fd4-4d3d-91a0-f84235ffabda",
+                "resourcePath": "sprites\\eff_on_card_spr\\eff_on_card_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b9a6f876-1121-4208-92a9-510f849a5996",
             "Value": {
                 "id": "96ded9d9-bed3-4980-9ec0-c7daf11bb70a",
@@ -564,6 +596,14 @@
                 "id": "657e921d-cc78-4e68-aa8b-7f310a0093d4",
                 "resourcePath": "objects\\state_controller\\state_controller.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c43fbd49-5c8b-4eae-8777-66dd49e8fe46",
+            "Value": {
+                "id": "5bd8db23-2cce-42ab-9db6-0d152e637590",
+                "resourcePath": "scripts\\card_effect\\card_effect.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -743,8 +783,10 @@
         "fefac94a-3e0a-4f71-9eaa-ea65f55a2bf8",
         "b00dba28-0a16-4ef0-84a8-91b520d7f088",
         "9d8ee402-72a8-445b-865c-77e81a5f0d0e",
+        "013e38cd-a947-45b0-84a8-422ded03f60a",
         "e1ddd2f8-f782-431b-9f96-795db193b321",
-        "453b86b2-023b-4fc2-91e7-1749dcc8155f"
+        "453b86b2-023b-4fc2-91e7-1749dcc8155f",
+        "c43fbd49-5c8b-4eae-8777-66dd49e8fe46"
     ],
     "tutorial": ""
 }
