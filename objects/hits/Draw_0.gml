@@ -21,26 +21,27 @@ if combat_win != "no" && state_controller.turn != t.victory
 	var ppy = play_area.py;
 	var opx = opponent.px;
 	var opy = opponent.py;
+	var offset = 100;
 	if combat_win == "player"
 	{
 		draw_sprite(combat_hit_sign_spr,0,ppx,ppy); //player sprite
 		draw_sprite(combat_hit_sign_spr,1,opx,opy); //opponent sprite
-		draw_text(224,420,"MISS"); //opponent text
-		draw_text(576,420,"HIT"); //player text
+		draw_text(opx,opy+offset,"MISS"); //opponent text
+		draw_text(ppx,ppy+offset,"HIT"); //player text
 	}
 	if combat_win == "opponent"
 	{
 		draw_sprite(combat_hit_sign_spr,1,ppx,ppy); //player sprite
 		draw_sprite(combat_hit_sign_spr,0,opx,opy); //opponent sprite
-		draw_text(224,420,"HIT"); //opponent text
-		draw_text(576,420,"MISS"); //player text
+		draw_text(opx,opy+offset,"HIT"); //opponent text
+		draw_text(ppx,ppy+offset,"MISS"); //player text
 	}
 	if combat_win == "draw"
 	{
 		draw_sprite(combat_hit_sign_spr,2,ppx,ppy); //player sprite
 		draw_sprite(combat_hit_sign_spr,2,opx,opy); //opponent sprite
-		draw_text(224,420,"EVEN"); //opponent text
-		draw_text(576,420,"EVEN"); //player text
+		draw_text(opx,opy+offset,"EVEN"); //opponent text
+		draw_text(ppx,ppy+offset,"EVEN"); //player text
 	}
 }
 #endregion

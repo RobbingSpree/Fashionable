@@ -8,11 +8,11 @@ if turn == t.victory
 	draw_text_outline(room_width/2,room_height/3,"SOMEONE WON",c_yellow,c_black);
 	if opponent.hit == 3
 	{
-		draw_text_outline(room_width/2,room_height/3*2+20,"AND IT WAS YOU!!",c_blue,c_black);
+		draw_text_outline(room_width/2,room_height/3*2+20,"IT WAS SOMEONE ELSE...",c_blue,c_black);
 	}
 	if hits.h == 3
 	{
-		draw_text_outline(room_width/2,room_height/3*2+20,"IT WAS SOMEONE ELSE...",c_red,c_black);
+		draw_text_outline(room_width/2,room_height/3*2+20,"AND IT WAS YOU!!",c_red,c_black);
 	}
 	draw_set_font(descrip);
 	draw_text_outline(room_width/2,room_height-60,"Click/Tap to start new battle",c_white,c_black);
