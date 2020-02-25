@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "d6826a50-4a3a-450a-a312-9fe15b41ed44",
+            "Value": {
+                "id": "64221629-4f51-499b-8657-31bee1aab081",
+                "resourcePath": "objects\\opp_discard\\opp_discard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d842f77e-ad34-4ef8-b5f6-371323c0b823",
             "Value": {
                 "id": "81c71496-38eb-4fd3-9138-9098b554481d",

@@ -102,10 +102,17 @@ if turn == t.player && change_phase == false
 				ani=ani_max;
 				prep +=1;
 				if play_area.total_power > opponent.total_power
+				{
 					hits.h+=1;
+					if ds_stack_size(opponent.o) >0
+						disrobe_garment(t.opponent);
+				}
 				if play_area.total_power < opponent.total_power
+				{
 					opponent.hit +=1;
-				
+					if ds_stack_size(play_area.o) >0
+						disrobe_garment(t.player);
+				}
 				if hits.h >=3 || opponent.hit >= 3
 				{
 					turn=t.victory;

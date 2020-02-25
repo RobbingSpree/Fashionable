@@ -35,13 +35,16 @@ if ds_stack_top(o) >0
 	total_power += on[1,2];
 	total_power += on[1,3];
 	
-	draw_set_font(ann_fnt);
-	draw_set_halign(fa_left);
-	draw_set_valign(fa_middle);
-	draw_text_ext(x+200,y-20,"Outfit Power: "+string(total_power),40,64);
-	draw_set_valign(fa_top);
-	draw_set_halign(fa_left);
-	draw_set_font(defont);
+	if state_controller.turn!=t.victory
+	{
+		draw_set_font(ann_fnt);
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_middle);
+		draw_text_ext(x+200,y-20,"Outfit Power: "+string(total_power),40,64);
+		draw_set_valign(fa_top);
+		draw_set_halign(fa_left);
+		draw_set_font(defont);
+	}
 }
 //debug
 /*

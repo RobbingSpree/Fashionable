@@ -5,3 +5,5 @@ pow = 0;
 ang = 0;
 
 ttl = 60;
+
+destination = discard;

@@ -1,9 +1,11 @@
 /// @description show remaining hits
-
-draw_set_font(descrip);
-draw_set_halign(fa_center);
-draw_text(x,y,"Remaining Hits to win: "+string(3-h));
-draw_text(x,y-20,"Remaining Hits to lose: "+string(3-opponent.hit));
+if state_controller.turn != t.victory
+{
+	draw_set_font(descrip);
+	draw_set_halign(fa_center);
+	draw_text(x,y,"Remaining Hits to win: "+string(3-h));
+	draw_text(x,y-20,"Opponent Hits till you lose: "+string(3-opponent.hit));
+}
 
 #region //--combat UI
 if show_vs 

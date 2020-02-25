@@ -3,18 +3,20 @@
 #region //victory UI
 if turn == t.victory
 {
+	draw_set_halign(fa_center);
 	draw_set_font(ann_fnt);
 	draw_text_outline(room_width/2,room_height/3,"SOMEONE WON",c_yellow,c_black);
-	if hits.combat_win == "player"
+	if opponent.hit == 3
 	{
-		draw_text_outline(room_width/2,room_height/3*2,"AND IT WAS YOU!!",c_blue,c_black);
+		draw_text_outline(room_width/2,room_height/3*2+20,"AND IT WAS YOU!!",c_blue,c_black);
 	}
-	if hits.combat_win == "opponent"
+	if hits.h == 3
 	{
-		draw_text_outline(room_width/2,room_height/3*2,"IT WAS SOMEONE ELSE...",c_red,c_black);
+		draw_text_outline(room_width/2,room_height/3*2+20,"IT WAS SOMEONE ELSE...",c_red,c_black);
 	}
 	draw_set_font(descrip);
-	draw_text_outline(room_width/2,room_height/5*4,"Click/Tap to start new battle",c_white,c_black);
+	draw_text_outline(room_width/2,room_height-60,"Click/Tap to start new battle",c_white,c_black);
+	draw_set_halign(fa_left);
 }
 #endregion
 
