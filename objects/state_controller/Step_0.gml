@@ -109,7 +109,7 @@ if turn == t.player && change_phase == false
 				if play_area.total_power > opponent.total_power
 				{
 					hits.h+=1;
-					if ds_stack_size(opponent.o) >0
+					if ds_stack_size(opponent.o) > 0
 						disrobe_garment(t.opponent);
 				}
 				if play_area.total_power < opponent.total_power
@@ -217,6 +217,7 @@ if turn == t.opponent && ani == 0
 		{
 			if instance_number(auto_card) == 0 
 				opponent_redress();
+			//autocard objects handle triggering the next phase
 		}
 		//end phase
 		/*
@@ -253,10 +254,15 @@ if turn == t.opponent && ani == 0
 				ani=ani_max;
 				prep +=1;
 				if play_area.total_power > opponent.total_power
+				{
 					hits.h+=1;
+					disrobe_garment(t.opponent);
+				}
 				if play_area.total_power < opponent.total_power
+				{
 					opponent.hit +=1;
-				
+					disrobe_garment(t.player);
+				}
 				if hits.h >=3 || opponent.hit >= 3
 				{
 					turn=t.victory;

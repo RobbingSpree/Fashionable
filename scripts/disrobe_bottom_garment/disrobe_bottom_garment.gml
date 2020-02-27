@@ -50,6 +50,7 @@ if target == t.opponent
 	val = ds_stack_pop(temp); //found the bottom value
 	//tidy metadata values
 	opponent.on[0,val%4] = false;
+	opponent.total_power -= opponent.on[1,val%4];
 	opponent.on[1,val%4] = 0;
 	//make discard card
 	var dis = instance_create_layer(opponent.x,opponent.y,"UI",discard_card);

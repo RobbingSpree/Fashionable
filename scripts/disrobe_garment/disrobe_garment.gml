@@ -19,5 +19,6 @@ if target == t.opponent
 	dis.value = ds_stack_pop(opponent.o);
 	dis.destination = opp_discard;
 	dis.pow = opponent.on[1,temp%4]
+	opponent.total_power -= dis.pow;
 	opponent.on[1,temp%4] = 0;
 }

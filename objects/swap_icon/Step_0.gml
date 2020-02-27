@@ -19,6 +19,7 @@ if phase == "create"
 		value = ds_stack_pop(opponent.o);
 		opponent.on[0,value mod 4] = false;
 		pow = opponent.on[1,value mod 4];
+		opponent.total_power -= pow;
 		opponent.on[1,value mod 4] = 0;
 		//opponent needs to go looking for replacement card
 	}

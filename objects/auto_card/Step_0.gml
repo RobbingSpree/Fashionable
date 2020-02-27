@@ -51,8 +51,9 @@ if phase == 3
 	if round(x) ==round(dest_x)
 	{
 		ds_stack_push(opponent.o,value);
-		on[1,ds_stack_size(opponent.o)]=pow;
-		on[0,ds_stack_size(opponent.o)]=value;
+		var index = value mod 4;
+		opponent.on[1,index]=pow;
+		opponent.on[0,index]=true;
 		opponent.total_power+=pow;
 		if ds_stack_size(opponent.action_queue) == 0
 			next_phase();
