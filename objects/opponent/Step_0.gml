@@ -17,13 +17,14 @@ if state_controller.phase==p.setup
 
 if state_controller.turn == t.opponent && state_controller.phase==p.play
 	phase_change--;
+/* //perhaps causes an animation bug
 if phase_change <=0 //emergency turn ender in case logic gets stuck
 {
 	state_controller.change_phase = true;
 	state_controller.ani = 0;
 	phase_change=80;
 }
-
+*/
 if state_controller.turn == t.opponent || state_controller.phase == p.combat
 {
 	if scale < 1

@@ -81,7 +81,7 @@ if turn == t.player && change_phase == false
 	//combat
 	if phase==p.combat
 	{
-		if prep == true //move actors to middle of screen
+		if prep == true && prep <2 //move actors to middle of screen
 		{
 			var chgne = 0.1;
 			play_area.px = lerp(play_area.px,576,chgne); //move to right side
@@ -90,8 +90,10 @@ if turn == t.player && change_phase == false
 			opponent.py = lerp(opponent.py,320,chgne); //move to right side
 			opponent.scale = lerp(opponent.scale,1,chgne); //scale up opponent sprite
 			if abs(opponent.py - play_area.py) < 2
+			{
 				prep += 1;
-			ani=ani_max;
+				ani=ani_max;
+			}
 		}
 		
 		if prep == true + 1 //show the combat UI
@@ -234,8 +236,10 @@ if turn == t.opponent && ani == 0
 			opponent.py = lerp(opponent.py,320,chgne); //move to right side
 			opponent.scale = lerp(opponent.scale,1,chgne); //scale up opponent sprite
 			if abs(opponent.py - play_area.py) < 2
+			{
 				prep += 1;
-			ani=ani_max;
+				ani=ani_max;
+			}
 		}
 		
 		if prep == true + 1 //show the combat UI

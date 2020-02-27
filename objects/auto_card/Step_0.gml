@@ -54,6 +54,8 @@ if phase == 3
 		on[1,ds_stack_size(opponent.o)]=pow;
 		on[0,ds_stack_size(opponent.o)]=value;
 		opponent.total_power+=pow;
+		if ds_stack_size(opponent.action_queue) == 0
+			next_phase();
 		instance_destroy(self);
 	}
 }

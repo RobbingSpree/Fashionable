@@ -1,5 +1,6 @@
 /// @description move and enforce
 
+//effect needs to auto solve if there's no good replacement
 if phase == "create"
 {
 	if owner == t.player
@@ -19,6 +20,7 @@ if phase == "create"
 		opponent.on[0,value mod 4] = false;
 		pow = opponent.on[1,value mod 4];
 		opponent.on[1,value mod 4] = 0;
+		//opponent needs to go looking for replacement card
 	}
 	phase = "move";
 }
@@ -53,7 +55,7 @@ if phase == "wait" && state_controller.phase != p.swap
 	
 	if owner == t.opponent
 	{
-		//fake putting card back in hand
+		//fake putting card back in hand by drawing it instead
 		var card_temp=draw_card(t.opponent);
 		ds_list_set(opponent.h,opponent.hand_size,value);
 	}
