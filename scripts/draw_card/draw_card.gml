@@ -18,7 +18,9 @@ if target == t.opponent
 {
 	with (opponent)
 	{
-		ds_list_add(h,ds_stack_pop(d));
+		var card_temp = ds_stack_pop(d);
+		ds_list_add(h,card_temp);
 		hand_size+=1;
+		return card_temp;
 	}
 }
