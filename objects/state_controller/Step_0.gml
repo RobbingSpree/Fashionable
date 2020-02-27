@@ -32,7 +32,7 @@ if change_turn && ani == 0
 //check if at end of turn and start next turn
 if change_phase && ani <= 0
 {
-	if phase >= p.tidy
+	if phase == p.tidy
 	{
 		if turn == t.player
 			turn = t.opponent;
@@ -326,5 +326,13 @@ if turn == t.victory //reset combat UI
 	opponent.px = lerp(opponent.px,opponent.x,0.2);
 	opponent.py = lerp(opponent.py,opponent.y,0.2);
 	hits.show_vs = false;
+}
+#endregion
+
+#region //--Card inflicted states
+if phase != phase_hold
+{
+	if phase <= p.tidy
+		phase_hold=phase;
 }
 #endregion

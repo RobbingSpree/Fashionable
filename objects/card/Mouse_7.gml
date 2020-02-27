@@ -9,6 +9,8 @@ if collision_point(x,y,discard,false,true) && state_controller.phase == p.play &
 			if index > global.h_index
 				index -=1;
 		}
+		if state_controller.phase == p.discard
+			state_controller.phase=state_controller.phase_hold;
 	}
 	deck.hand_size -=1;
 	ds_stack_push(discard.pile,value); 

@@ -32,7 +32,7 @@ if ds_stack_top(o) >0
 }
 
 //draw opponent power
-if state_controller.turn=t.opponent && state_controller.phase=p.play
+if state_controller.phase=p.play
 {
 	draw_set_font(descrip);
 	draw_set_halign(fa_left);

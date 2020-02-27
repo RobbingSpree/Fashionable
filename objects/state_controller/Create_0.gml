@@ -7,7 +7,9 @@ enum p
 	draw,
 	play,
 	combat,
-	tidy
+	tidy,
+	discard,
+	swap
 }
 
 enum t
@@ -32,6 +34,7 @@ enum e
 }
 
 phase = 0;
+phase_hold = 0;
 prep = false;
 turn = 0;
 change_phase=false;
