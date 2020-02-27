@@ -13,7 +13,11 @@ ang = 0;
 
 value = 0;
 pow = irandom_range(1,5);
-effect = irandom(7);
+//effect setup
+effect = irandom(e.swap_top_other+5);
+effect -=5;
+if effect <0
+	effect = 0;
 
 delay=100;
 flip=true;

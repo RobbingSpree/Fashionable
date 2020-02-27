@@ -29,7 +29,7 @@ if effect == e.draw_other
 if effect == e.discard
 {
 	discard_from_hand(player);
-	announcement(room_height/2,"Discard a card");
+	announcement(room_height/2,"Discard");
 }
 
 if effect == e.discard_other

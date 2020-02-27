@@ -1,6 +1,6 @@
 /// @description drop card in hand or on object
 
-if collision_point(x,y,discard,false,true) && state_controller.phase == p.play && state_controller.turn == t.player
+if collision_point(x,y,discard,false,true) && (state_controller.phase == p.play || state_controller.phase == p.discard) && state_controller.turn == t.player
 {
 	if index != deck.hand_size-1
 	{

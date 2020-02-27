@@ -1,5 +1,8 @@
 /// @description Update the turn order and cycle through the game phases
 
+if keyboard_check_released(vk_shift)
+	debug_mod = !debug_mod;
+
 if ani !=0 
 	ani -=1;
 

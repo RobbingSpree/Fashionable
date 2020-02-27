@@ -43,3 +43,5 @@ change_turn=false;
 ani=0; //timer for how long to wait before changing phases
 ani_max=40; //timer to reference to changing phases
 //is animations are set to off set this to 5
+
+debug_mod = false;
