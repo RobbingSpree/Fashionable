@@ -13,7 +13,10 @@ if effect == e.draw
 
 if effect == e.draw_other
 {
-	draw_card(player);//other player change needed
+	if player == t.player
+		draw_card(t.opponent);
+	if player == t.opponent
+		draw_card(t.player);
 }
 
 if effect == e.discard
@@ -23,7 +26,10 @@ if effect == e.discard
 
 if effect == e.discard_other
 {
-	return;
+	if player == t.player
+		return;
+	if player == t.opponent
+		return;
 }
 
 if effect == e.rem_bottom
@@ -33,7 +39,10 @@ if effect == e.rem_bottom
 
 if effect == e.rem_bottom_other
 {
-	disrobe_bottom_garment(player);//other player change needed
+	if player == t.player
+		disrobe_bottom_garment(t.opponent);
+	if player == t.opponent
+		disrobe_bottom_garment(t.player);
 }
 
 if effect == e.swap_top_other
@@ -43,5 +52,8 @@ if effect == e.swap_top_other
 
 if effect == e.rem_top_other
 {
-	disrobe_garment(player);//other player change needed
+	if player == t.player
+		disrobe_garment(t.opponent);
+	if player == t.opponent
+		disrobe_garment(t.player);
 }
