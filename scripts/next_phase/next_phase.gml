@@ -1,2 +1,6 @@
-state_controller.change_phase=true;
-state_controller.ani=state_controller.ani_max;
+function next_phase() {
+	state_controller.change_phase=true;
+	state_controller.ani=state_controller.ani_max;
+
+
+}
