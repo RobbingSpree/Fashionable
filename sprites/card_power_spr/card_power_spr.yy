@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"e38007d5-0c13-41ed-af35-e0b5b6b4df06","path":"sprites/card_power_spr/card_power_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e38007d5-0c13-41ed-af35-e0b5b6b4df06","path":"sprites/card_power_spr/card_power_spr.yy",},"LayerId":{"name":"ff430ae2-78a9-4db2-86d8-9efb90b419cc","path":"sprites/card_power_spr/card_power_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"e38007d5-0c13-41ed-af35-e0b5b6b4df06","path":"sprites/card_power_spr/card_power_spr.yy",},"LayerId":{"name":"64b743f2-6346-4f60-a5b1-c502e381052b","path":"sprites/card_power_spr/card_power_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"e38007d5-0c13-41ed-af35-e0b5b6b4df06","path":"sprites/card_power_spr/card_power_spr.yy",},"LayerId":{"name":"ff430ae2-78a9-4db2-86d8-9efb90b419cc","path":"sprites/card_power_spr/card_power_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"card_power_spr","path":"sprites/card_power_spr/card_power_spr.yy",},"resourceVersion":"1.0","name":"e38007d5-0c13-41ed-af35-e0b5b6b4df06","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"9cfaf5eb-dec8-45e4-b16a-12a66b21004d","path":"sprites/card_power_spr/card_power_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"9cfaf5eb-dec8-45e4-b16a-12a66b21004d","path":"sprites/card_power_spr/card_power_spr.yy",},"LayerId":{"name":"64b743f2-6346-4f60-a5b1-c502e381052b","path":"sprites/card_power_spr/card_power_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -94,6 +94,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"64b743f2-6346-4f60-a5b1-c502e381052b","tags":[],"resourceType":"GMImageLayer",},
     {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ff430ae2-78a9-4db2-86d8-9efb90b419cc","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "card sprites",
     "path": "folders/Sprites/card sprites.yy",

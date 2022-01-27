@@ -27,7 +27,7 @@ if cycle < 1 && holding != true
 	cycle = cmax;
 	//update pos on screen
 	//find the how far the left edge card will sit reletive to the middle
-	var left_edge = (deck.hand_size-1)*30; 
+	var left_edge = (deck.hand_size-1)*30; //number of cards in hand minus half the width of the card spaces
 	//find point n card widths accross the screen
 	var hand_x = mid_x - left_edge + (index * 64);
 	//setup hand vertical fan effect

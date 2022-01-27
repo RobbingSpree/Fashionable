@@ -26,8 +26,8 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"5514ae9a-9e2b-4b6b-8265-2a752138aa7f","path":"sprites/vs_spr/vs_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"5514ae9a-9e2b-4b6b-8265-2a752138aa7f","path":"sprites/vs_spr/vs_spr.yy",},"LayerId":{"name":"db09fcf4-f682-4666-a97f-5865ef3b949d","path":"sprites/vs_spr/vs_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"5514ae9a-9e2b-4b6b-8265-2a752138aa7f","path":"sprites/vs_spr/vs_spr.yy",},"LayerId":{"name":"9ec10ed1-c014-447b-9112-ae5969b7e1e0","path":"sprites/vs_spr/vs_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"5514ae9a-9e2b-4b6b-8265-2a752138aa7f","path":"sprites/vs_spr/vs_spr.yy",},"LayerId":{"name":"831fced1-58ed-4298-81bb-191f4161cc8c","path":"sprites/vs_spr/vs_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"5514ae9a-9e2b-4b6b-8265-2a752138aa7f","path":"sprites/vs_spr/vs_spr.yy",},"LayerId":{"name":"9ec10ed1-c014-447b-9112-ae5969b7e1e0","path":"sprites/vs_spr/vs_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"5514ae9a-9e2b-4b6b-8265-2a752138aa7f","path":"sprites/vs_spr/vs_spr.yy",},"LayerId":{"name":"e30ed0e6-7161-432b-a815-424aaa7680c0","path":"sprites/vs_spr/vs_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"vs_spr","path":"sprites/vs_spr/vs_spr.yy",},"resourceVersion":"1.0","name":"5514ae9a-9e2b-4b6b-8265-2a752138aa7f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
@@ -73,6 +73,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"9ec10ed1-c014-447b-9112-ae5969b7e1e0","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 3","resourceVersion":"1.0","name":"e30ed0e6-7161-432b-a815-424aaa7680c0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "combat UI",
     "path": "folders/Sprites/combat UI.yy",

@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f421bfc1-f5a8-4794-adbb-0ee2894acefc","path":"sprites/paper_doll/paper_doll.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f421bfc1-f5a8-4794-adbb-0ee2894acefc","path":"sprites/paper_doll/paper_doll.yy",},"LayerId":{"name":"e2f1ee24-7bfd-4f9d-bf64-31c6aa2e9923","path":"sprites/paper_doll/paper_doll.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f421bfc1-f5a8-4794-adbb-0ee2894acefc","path":"sprites/paper_doll/paper_doll.yy",},"LayerId":{"name":"74a6259c-8ce5-4fc8-90a0-145744dceb22","path":"sprites/paper_doll/paper_doll.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f421bfc1-f5a8-4794-adbb-0ee2894acefc","path":"sprites/paper_doll/paper_doll.yy",},"LayerId":{"name":"e2f1ee24-7bfd-4f9d-bf64-31c6aa2e9923","path":"sprites/paper_doll/paper_doll.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"paper_doll","path":"sprites/paper_doll/paper_doll.yy",},"resourceVersion":"1.0","name":"f421bfc1-f5a8-4794-adbb-0ee2894acefc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -69,6 +69,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default (2)","resourceVersion":"1.0","name":"74a6259c-8ce5-4fc8-90a0-145744dceb22","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e2f1ee24-7bfd-4f9d-bf64-31c6aa2e9923","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "card sprites",
     "path": "folders/Sprites/card sprites.yy",

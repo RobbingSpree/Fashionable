@@ -25,9 +25,9 @@
   "gridY": 16,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"2783007d-36d4-448d-ad12-64502c6b80d4","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2783007d-36d4-448d-ad12-64502c6b80d4","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"LayerId":{"name":"983a6240-a675-48f3-90c7-0d090cd92b60","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"2783007d-36d4-448d-ad12-64502c6b80d4","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"LayerId":{"name":"34842361-4c96-4c35-9781-33bc845a60b6","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"2783007d-36d4-448d-ad12-64502c6b80d4","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"LayerId":{"name":"73575f29-6e9a-40c0-89e5-f7a41a643016","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"2783007d-36d4-448d-ad12-64502c6b80d4","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"LayerId":{"name":"983a6240-a675-48f3-90c7-0d090cd92b60","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"combat_hit_sign_spr","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"resourceVersion":"1.0","name":"2783007d-36d4-448d-ad12-64502c6b80d4","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"3da6f71f-64b3-42fd-a5c3-dd7601300559","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"3da6f71f-64b3-42fd-a5c3-dd7601300559","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"LayerId":{"name":"983a6240-a675-48f3-90c7-0d090cd92b60","path":"sprites/combat_hit_sign_spr/combat_hit_sign_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -83,6 +83,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default (2)","resourceVersion":"1.0","name":"34842361-4c96-4c35-9781-33bc845a60b6","tags":[],"resourceType":"GMImageLayer",},
     {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"73575f29-6e9a-40c0-89e5-f7a41a643016","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "combat UI",
     "path": "folders/Sprites/combat UI.yy",

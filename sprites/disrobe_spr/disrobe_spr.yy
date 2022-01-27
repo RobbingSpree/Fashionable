@@ -104,9 +104,9 @@
   "gridY": 8,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"339068c1-a70d-4e08-85f5-2fb9e685c2e7","path":"sprites/disrobe_spr/disrobe_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"339068c1-a70d-4e08-85f5-2fb9e685c2e7","path":"sprites/disrobe_spr/disrobe_spr.yy",},"LayerId":{"name":"26c7d129-6c4e-431f-96d6-272e1d3f579c","path":"sprites/disrobe_spr/disrobe_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"339068c1-a70d-4e08-85f5-2fb9e685c2e7","path":"sprites/disrobe_spr/disrobe_spr.yy",},"LayerId":{"name":"33d5d463-44e6-4ad3-981f-798eec3caa40","path":"sprites/disrobe_spr/disrobe_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"339068c1-a70d-4e08-85f5-2fb9e685c2e7","path":"sprites/disrobe_spr/disrobe_spr.yy",},"LayerId":{"name":"955b8009-f1d8-45ef-a058-9696cc685473","path":"sprites/disrobe_spr/disrobe_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"339068c1-a70d-4e08-85f5-2fb9e685c2e7","path":"sprites/disrobe_spr/disrobe_spr.yy",},"LayerId":{"name":"26c7d129-6c4e-431f-96d6-272e1d3f579c","path":"sprites/disrobe_spr/disrobe_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"disrobe_spr","path":"sprites/disrobe_spr/disrobe_spr.yy",},"resourceVersion":"1.0","name":"339068c1-a70d-4e08-85f5-2fb9e685c2e7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -150,6 +150,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"33d5d463-44e6-4ad3-981f-798eec3caa40","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"955b8009-f1d8-45ef-a058-9696cc685473","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "icons",
     "path": "folders/Sprites/combat UI/icons.yy",

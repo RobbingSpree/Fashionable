@@ -25,8 +25,8 @@
   "gridY": 32,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"6619156e-efa6-4113-a916-81b1bd4dc294","path":"sprites/opponent_mystery_spr/opponent_mystery_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6619156e-efa6-4113-a916-81b1bd4dc294","path":"sprites/opponent_mystery_spr/opponent_mystery_spr.yy",},"LayerId":{"name":"2ef88761-b87e-4d96-8107-10334a9edff9","path":"sprites/opponent_mystery_spr/opponent_mystery_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"6619156e-efa6-4113-a916-81b1bd4dc294","path":"sprites/opponent_mystery_spr/opponent_mystery_spr.yy",},"LayerId":{"name":"e4959ab7-d187-41a1-a7ac-0d79815cfa90","path":"sprites/opponent_mystery_spr/opponent_mystery_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"6619156e-efa6-4113-a916-81b1bd4dc294","path":"sprites/opponent_mystery_spr/opponent_mystery_spr.yy",},"LayerId":{"name":"2ef88761-b87e-4d96-8107-10334a9edff9","path":"sprites/opponent_mystery_spr/opponent_mystery_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"opponent_mystery_spr","path":"sprites/opponent_mystery_spr/opponent_mystery_spr.yy",},"resourceVersion":"1.0","name":"6619156e-efa6-4113-a916-81b1bd4dc294","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -69,6 +69,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"e4959ab7-d187-41a1-a7ac-0d79815cfa90","tags":[],"resourceType":"GMImageLayer",},
     {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"2ef88761-b87e-4d96-8107-10334a9edff9","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "combat UI",
     "path": "folders/Sprites/combat UI.yy",

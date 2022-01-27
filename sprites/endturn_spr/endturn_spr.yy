@@ -104,10 +104,10 @@
   "gridY": 8,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"3b5a6614-90c7-4839-80b7-e8ec3a1e35a6","path":"sprites/endturn_spr/endturn_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3b5a6614-90c7-4839-80b7-e8ec3a1e35a6","path":"sprites/endturn_spr/endturn_spr.yy",},"LayerId":{"name":"0ec59c3f-24e8-4d38-b464-47a0e6ad28f6","path":"sprites/endturn_spr/endturn_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"3b5a6614-90c7-4839-80b7-e8ec3a1e35a6","path":"sprites/endturn_spr/endturn_spr.yy",},"LayerId":{"name":"2400c619-86b1-49e8-93f4-3781e43c6324","path":"sprites/endturn_spr/endturn_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"3b5a6614-90c7-4839-80b7-e8ec3a1e35a6","path":"sprites/endturn_spr/endturn_spr.yy",},"LayerId":{"name":"8d4d5472-80a6-4583-9956-250a5688a4a7","path":"sprites/endturn_spr/endturn_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"3b5a6614-90c7-4839-80b7-e8ec3a1e35a6","path":"sprites/endturn_spr/endturn_spr.yy",},"LayerId":{"name":"dbc47e57-4450-4c45-88e1-dcae2aefcb14","path":"sprites/endturn_spr/endturn_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"3b5a6614-90c7-4839-80b7-e8ec3a1e35a6","path":"sprites/endturn_spr/endturn_spr.yy",},"LayerId":{"name":"2400c619-86b1-49e8-93f4-3781e43c6324","path":"sprites/endturn_spr/endturn_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"3b5a6614-90c7-4839-80b7-e8ec3a1e35a6","path":"sprites/endturn_spr/endturn_spr.yy",},"LayerId":{"name":"0ec59c3f-24e8-4d38-b464-47a0e6ad28f6","path":"sprites/endturn_spr/endturn_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"endturn_spr","path":"sprites/endturn_spr/endturn_spr.yy",},"resourceVersion":"1.0","name":"3b5a6614-90c7-4839-80b7-e8ec3a1e35a6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -152,6 +152,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8d4d5472-80a6-4583-9956-250a5688a4a7","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"dbc47e57-4450-4c45-88e1-dcae2aefcb14","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "icons",
     "path": "folders/Sprites/combat UI/icons.yy",
